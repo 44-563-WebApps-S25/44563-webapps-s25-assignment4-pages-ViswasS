@@ -82,8 +82,32 @@
     padding: 5px;
 }
 
+/* Alternating row colors */
 .casting-table tr:nth-child(even) {
     color: #ffffff;
     text-align: left;
     background-color: #009879;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Navigation bar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
 }
